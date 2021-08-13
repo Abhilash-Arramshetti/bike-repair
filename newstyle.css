@@ -1,0 +1,25 @@
+.navbutton{
+    background-color: yellowgreen;
+    padding:10px 20px;
+    display:inline-block;
+    text-align: center;
+    width:100px;
+    position:relative
+}
+.dropdown{
+    display: none;
+    position:absolute;
+    margin-top:15px;
+    z-index:1;
+    margin-left:-20px
+}
+.navbutton:hover .dropdown{
+    display:block;
+}
+.dropdown .navbutton{
+    background-color: rgb(93, 250, 78);
+}
+.dropdown .navbutton:hover{
+    background-color: rgb(236, 6, 236);
+    transition: 1s;
+}

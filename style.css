@@ -1,0 +1,166 @@
+html{
+    background-image: linear-gradient( rgb(255, 98, 7),rgb(252, 102, 139)) ;
+}
+body{
+    background-image: url(lion.png);
+    background-repeat: no-repeat;background-position:center;
+
+}
+.container{
+    width: 1024px;
+    min-height: 200px;
+    margin-left:100px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    min-height:100px;
+    padding-top:20px;
+}
+main{
+    min-height:200px;
+    display:flex;
+    align-content: center;
+}
+.main2{
+    color:white;
+    padding:50px;
+}
+.wrapper{
+    margin-bottom: 10px;
+}
+input[type=name],input[type=email], textarea{
+    padding:12px 20px;
+    width:40%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.newline{
+    display:block;
+    
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+main p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 15px;
+    color:white;  
+} 
+.card1{
+    background-image: url("card1.jpg");
+    background-size: cover;
+    width:30%;
+    min-height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356)
+} 
+.card2{
+    background-image: url("card2.jpg");
+    background-size: cover;
+    width:30%;
+    min-height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356)
+} 
+.card3{
+    background-image: url("card3.jpg");
+    background-size: cover;
+    width:30%;
+    min-height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356)
+}
+.cards p{
+    margin: 10px 30px 20px 30px;
+} 
+.cards h2{
+    margin-top: 10px;
+}
+a{
+    color:wheat;
+    text-decoration: none;
+}
+.box1{
+    flex:2;
+    color:white;
+}
+.box2{
+    flex:1
+}
+.button{
+     background-color: white;
+     color:rgb(199, 54, 10);
+     padding:8px 10px ;
+     display: inline-block ;
+     border-radius: 5px  5px 100px 5px;
+     box-shadow: 5px 5px rgba(0, 0, 0, 0.329)
+}
+.button:hover{
+    background-color: rgb(12, 134, 134);
+    transition:1s;
+}
+img{
+    border-radius: 9px;
+    margin-top:10px;
+}
+p a.mybutton{
+    margin-left:20px;
+    background-color: none;
+}
+.mybutton{ 
+    padding:8px 10px ;
+    border:2px solid white;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    display:inline-block;
+    position: relative;
+
+}
+.testimonials{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom :100px 
+}
+.tbox{
+    width:47%;
+    padding:10px;
+    border:1px solid whitesmoke;
+    margin-top:30px;
+    color:white; 
+}
+.tbox p:last-of-type{
+    font-style: italic;
+    font-size: 15px;
+    padding-left:20px
+}
+.dropdown{
+    display:none;
+    position:absolute;
+    margin-top:10px;
+    z-index: 1;
+    text-align: center;
+    width:150px;
+    margin-left:-30px
+}
+.mybutton:hover .dropdown {
+    display:block;
+}
+.dropdown .mybutton{
+    width:80px;
+    background-color: rgb(13, 129, 175);
+    transition:1s
+}
+.dropdown .mybutton:hover{
+    background-color:rgb(182, 35, 211) ;
+}
